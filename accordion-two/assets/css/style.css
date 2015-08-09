@@ -1,0 +1,463 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    color: #969595;
+    font-weight: 400;
+}
+
+/* --------------------------------------
+TYPOGRAPHY
+------------------------------------------*/
+
+h1 {
+    margin: 0 0 15px;
+    color: #313131;
+    line-height: 24px;
+    font-weight: 600;
+}
+h2 {
+    font-size: 24px;
+    line-height: 24px;
+}
+h3 {
+    font-size: 20px;
+    line-height: 24px;
+}
+h4 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/* --------------------------------------
+LINK STYLE
+------------------------------------------*/
+
+a {
+    color: #31aae2;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+a,
+a:active,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+.gray-bg {
+    background-color: #f9f9f9;
+}
+button:focus,
+.btn:focus,
+.btn:active:focus {
+    outline: none;
+}
+
+/*global class*/
+
+.ptb-100 {
+    padding: 100px 0 100px;
+}
+
+/*page-title-section*/
+
+.page-title-section {
+    background-color: whitesmoke;
+}
+.page-title-section .page-header {
+    border-bottom: 0;
+}
+
+/*================================
+             Accordion Area 
+==================================*/
+
+.wsm-accordion-wrap .panel .panel-heading a {
+    font-size: 14px;
+}
+.wsm-accordion-wrap .panel-body {
+    font-size: 13px;
+}
+.wsm-accordion-wrap .panel-heading {
+    padding: 0px;
+    border-radius: 0px;
+}
+
+/*   .wsm-accordion-four start */
+
+.wsm-accordion-four {
+    background: #f9f9f9;
+}
+.wsmaccordionFour .panel-group .panel+.panel {
+    margin-top: 0px;
+}
+.wsmaccordionFour .panel-group {
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+.wsmaccordionFour .panel-default {
+    border: 0;
+}
+.wsmaccordionFour .panel {
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 0;
+    padding: 0px 30px;
+}
+.wsmaccordionFour .panel .panel-heading a {
+    color: #313131;
+    display: block;
+    padding: 11px 0px;
+    border-bottom: 1px solid transparent;
+}
+.wsmaccordionFour .panel .panel-heading a.collapsed {
+    color: #969595;
+    display: block;
+    padding: 11px 0px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.wsmaccordionFour .panel-default>.panel-heading {
+    background-color: transparent;
+}
+.wsmaccordionFour .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: 0;
+    padding-top: 0;
+    padding: 35px 40px 20px 0px;
+}
+.wsmaccordionFour .panel .panel-heading a:after,
+.wsmaccordionFour .panel .panel-heading a.collapsed:after {
+    font-family: 'FontAwesome';
+    font-size: 12px;
+    margin-right: 12px;
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #9e9d9d;
+    position: absolute;
+    left: 15px;
+}
+.wsmaccordionFour .panel .panel-heading a:after {
+    content: "\2212";
+    color: #fff;
+    background: #31aae2;
+    border: 1px solid #31aae2;
+}
+.wsmaccordionFour .panel .panel-heading a.collapsed:after {
+    content: "\2b";
+    color: #9e9d9d;
+    background: transparent;
+}
+
+/*   .wsm-accordion-four end */
+
+
+/*   .wsm-accordion-eight start */
+
+.wsm-accordion-eight {}
+.wsmaccordionEight .panel-group .panel+.panel {
+    margin-top: 0px;
+}
+.wsmaccordionEight .panel-group {
+    margin-bottom: 0;
+}
+.wsmaccordionEight .panel-default {
+    border: 0;
+}
+.wsmaccordionEight .panel {
+    background-color: transparent;
+    box-shadow: none;
+    border-bottom: 10px solid transparent;
+    border-radius: 0;
+    margin: 0;
+}
+.wsmaccordionEight .panel:last-of-type {
+    border-bottom: 0;
+}
+.wsmaccordionEight .panel .panel-heading a {
+    display: block;
+    padding: 12px 30px;
+    background: #31aae2;
+    color: #fff;
+    border: 1px solid #31AAE2;
+}
+.wsmaccordionEight .panel .panel-heading a.collapsed {
+    color: #b6b5b5;
+    background-color: #fff;
+    display: block;
+    padding: 12px 30px;
+    border: 1px solid #F1F1F1;
+}
+.wsmaccordionEight .panel-default>.panel-heading {
+    border-radius: 0px;
+}
+.wsmaccordionEight .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: 0;
+    padding-top: 0;
+    padding: 25px 30px 30px 30px;
+    background: #fff;
+    color: #969595;
+}
+.wsmaccordionEight .panel .panel-heading a:after,
+.wsmaccordionEight .panel .panel-heading a.collapsed:after {
+    font-family: 'FontAwesome';
+    font-size: 15px;
+    float: right;
+    width: 42px;
+    height: 49px;
+    line-height: 50px;
+    text-align: center;
+    background: #F1F1F1;
+    margin-top: -12px;
+    margin-right: -30px;
+}
+.wsmaccordionEight .panel .panel-heading a:after {
+    content: "\f106";
+    color: #add7f1;
+    background: #31aae2;
+    border-left: 1px solid #98d5f1;
+}
+.wsmaccordionEight .panel .panel-heading a.collapsed:after {
+    content: "\f107";
+    color: #dadada;
+    background: #fff;
+    border-left: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+/*   .wsm-accordion-eight end */
+
+
+/*   .wsm-accordion-twelve start */
+
+.wsm-accordion-twelve {
+    background: #f9f9f9;
+}
+.wsmaccordionTwelve .panel-group .panel+.panel {
+    margin-top: 0px;
+}
+.wsmaccordionTwelve .panel-group {
+    margin-bottom: 0;
+}
+.wsmaccordionTwelve .panel-default {
+    border: 0;
+}
+.wsmaccordionTwelve .panel {
+    background-color: transparent;
+    box-shadow: none;
+    border-bottom: 10px solid transparent;
+    border-radius: 0;
+    margin: 0;
+}
+.wsmaccordionTwelve .panel:last-of-type {
+    border-bottom: 0;
+}
+.wsmaccordionTwelve .panel .panel-heading a {
+    display: block;
+    padding: 12px 0px;
+    background: #fff;
+    color: #31aae2;
+    text-align: center;
+}
+.wsmaccordionTwelve .panel .panel-heading a.collapsed {
+    color: #969595;
+    background-color: #fff;
+    display: block;
+    padding: 12px 30px;
+}
+.wsmaccordionTwelve .panel-default>.panel-heading {
+    border-radius: 0px;
+}
+.wsmaccordionTwelve .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: 0;
+    padding-top: 0;
+    padding: 25px 30px;
+    background: transparent;
+    color: #969595;
+}
+
+/*   .wsm-accordion-twelve end */
+
+
+/*   .wsm-accordion-fifteen start */
+
+.wsm-accordion-fifteen {}
+.wsmaccordionFifteen .panel-group .panel+.panel {
+    margin-top: 0px;
+}
+.wsmaccordionFifteen .panel-group {
+    margin-bottom: 0;
+}
+.wsmaccordionFifteen .panel-default {
+    border: 0;
+}
+.wsmaccordionFifteen .panel {
+    background-color: transparent;
+    box-shadow: none;
+    border-left: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+    border-radius: 0;
+    margin: 0;
+}
+.wsmaccordionFifteen .panel:last-of-type {
+    border-bottom: 1px solid #f1f1f1;
+}
+.wsmaccordionFifteen .panel .panel-heading a {
+    display: block;
+    background: #fff;
+    padding: 12px 20px;
+    color: #969595;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+}
+.wsmaccordionFifteen .panel .panel-heading a.collapsed {
+    color: #969595;
+    background-color: #fff;
+    display: block;
+    padding: 12px 20px;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid transparent;
+}
+.wsmaccordionFifteen .panel-default>.panel-heading {
+    border-radius: 0px;
+}
+.wsmaccordionFifteen .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: 0;
+    padding-top: 0;
+    padding: 25px 30px 30px 70px;
+    background: #fff;
+    color: #969595;
+}
+.wsmaccordionFifteen .panel .panel-heading a:before,
+.wsmaccordionFifteen .panel .panel-heading a.collapsed:before {
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    float: left;
+    margin-right: 20px;
+}
+.wsmaccordionFifteen .panel .panel-heading.desktop a:before {
+    content: "\f19c";
+    color: #31aae2;
+}
+.wsmaccordionFifteen .panel .panel-heading.desktop a.collapsed:before {
+    content: "\f19c";
+    color: #f1f1f1;
+}
+.wsmaccordionFifteen .panel .panel-heading.horn a:before {
+    content: "\f0a1";
+    color: #31aae2;
+}
+.wsmaccordionFifteen .panel .panel-heading.horn a.collapsed:before {
+    content: "\f0a1";
+    color: #f1f1f1;
+}
+.wsmaccordionFifteen .panel .panel-heading.bell a:before {
+    content: "\f0f3";
+    color: #31aae2;
+}
+.wsmaccordionFifteen .panel .panel-heading.bell a.collapsed:before {
+    content: "\f0f3";
+    color: #f1f1f1;
+}
+.wsmaccordionFifteen .panel .panel-heading a:after,
+.wsmaccordionFifteen .panel .panel-heading a.collapsed:after {
+    font-family: 'FontAwesome';
+    font-size: 14px;
+    float: right;
+    width: 25px;
+    height: 25px;
+    line-height: 24px;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+}
+.wsmaccordionFifteen .panel .panel-heading a:after {
+    content: "\2212";
+    color: #31aae2;
+    border: 1px solid #31aae2;
+}
+.wsmaccordionFifteen .panel .panel-heading a.collapsed:after {
+    content: "\2b";
+    color: #969595;
+    border: 1px solid #969595;
+}
+
+/*   .wsm-accordion-fifteen end */
+
+
+/*   .wsm-accordion-seventeen start */
+
+.wsm-accordion-seventeen {
+    background-color: whitesmoke;
+}
+.wsmaccordionSeventeen .panel-group .panel+.panel {
+    margin-top: 0px;
+}
+.wsmaccordionSeventeen .panel-group {
+    margin-bottom: 0;
+    border: 1px solid #31aae2;
+}
+.wsmaccordionSeventeen .panel-default {
+    border: 0;
+}
+.wsmaccordionSeventeen .panel {
+    background-color: transparent;
+    box-shadow: none;
+    border-bottom: 0px;
+    border-radius: 0;
+    margin: 0;
+}
+.wsmaccordionSeventeen .panel:last-of-type {
+    border-bottom: 0;
+}
+.wsmaccordionSeventeen .panel .panel-heading a {
+    display: block;
+    padding: 12px 30px;
+    color: #31aae2;
+    border-bottom: 1px solid #31aae2;
+}
+.wsmaccordionSeventeen .panel .panel-heading a.collapsed {
+    color: #fff;
+    background-color: #31aae2;
+    display: block;
+    padding: 12px 30px;
+    border-bottom: 1px solid transparent;
+}
+.wsmaccordionSeventeen .panel-default>.panel-heading {
+    border-radius: 0px;
+    background-color: #fff;
+}
+.wsmaccordionSeventeen .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: 0;
+    padding-top: 0;
+    padding: 20px 50px 20px 30px;
+    background: #fff;
+    color: #969595;
+}
+.wsmaccordionSeventeen .panel .panel-heading a:after,
+.wsmaccordionSeventeen .panel .panel-heading a.collapsed:after {
+    font-family: 'FontAwesome';
+    font-size: 15px;
+    float: right;
+    margin-top: 2px;
+}
+.wsmaccordionSeventeen .panel .panel-heading a:after {
+    content: "\2212";
+    color: #31aae2;
+}
+.wsmaccordionSeventeen .panel .panel-heading a.collapsed:after {
+    content: "\2b";
+    color: #fff;
+}
+
+/*   .wsm-accordion-seventeen end */
